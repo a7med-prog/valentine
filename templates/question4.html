@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>Question 4</title>
+    <style>
+        body {
+            background-color: #ffebef;
+            color: #ff69b4;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 18px;
+        }
+        input[type="submit"] {
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        input[type="submit"]:hover {
+            background-color: #ff1493;
+        }
+        .container {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💖 When is your birthday? (YYYY-MM-DD) 💖</h1>
+        <form action="/question4" method="POST">
+            <input type="text" name="birthday" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
